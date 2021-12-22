@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url('../img/v915-techi-056\ 1.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+.container{
+  padding: 50px 20%;
+}
+
+.bg-container{
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 40px;
+}
+
+/* start: navbar */
+.navbar{
+  margin-bottom: 40px;
+}
+/* end: navbar */
+
+/*start: main */
+.main h2{
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.main .isi-main p{
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.main h4 span{
+  font-weight: 200;
+}
+
+.penulis{
+  border-top: 1px solid black;
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.penulis img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.instagram, .twitter, .email{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+/*end: main */
+
+/* start:mobile */
+@media only screen and (max-width: 600px) {
+  .container{
+    padding: 20px 5%;
+  }
+
+  /* start: main */
+  .bg-container{
+    padding: 10px 20px;
+  }
+
+  .main h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main .isi-main p{
+    font-size: 14px;
+  }
+
+  .penulis{
+    flex-direction: column;
+  }
+
+  .penulis h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .penulis p{
+    font-size: 14px;
+  }
+
+  .penulis img{
+    width: 17px;
+  }
+  /* end: main */
+}
+/* end: mobile */
